@@ -1,0 +1,23 @@
+{
+  "name": "iamazing-school-digital-reveal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion project for Iamazing School digital reveal",
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "build": "tsc --noEmit",
+    "render": "remotion render src/index.ts Video out/video-final.mp4 --props=input.json --codec=h264 --overwrite"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.366"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.457",
+    "@types/node": "^22.15.18",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.8.3"
+  }
+}
