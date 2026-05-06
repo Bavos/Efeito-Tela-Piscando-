@@ -1,4 +1,4 @@
-name: Render Remotion Video
+name: VAMOS RODAR
 
 on:
   push:
@@ -9,6 +9,7 @@ on:
 jobs:
   render:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -28,8 +29,8 @@ jobs:
       - name: Render video
         run: npm run render
 
-      - - name: Upload artifact
-  uses: actions/upload-artifact@v4
-  with:
-    name: final-video
-    path: renders/final-video.mp4
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: final-video
+          path: renders/final-video.mp4
