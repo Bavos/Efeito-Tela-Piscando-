@@ -28,8 +28,8 @@ jobs:
       - name: Render video
         run: npm run render
 
-      - name: Upload rendered video artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: iamazing-school-video
-          path: out/video-final.mp4
+      - - name: Upload artifact
+  uses: actions/upload-artifact@v4
+  with:
+    name: final-video
+    path: renders/final-video.mp4
