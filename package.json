@@ -2,11 +2,14 @@
   "name": "iamazing-school-digital-reveal",
   "version": "1.0.0",
   "private": true,
-  "description": "Remotion project for Iamazing School digital reveal",
+  "description": "Projeto Remotion cinematográfico vertical para vídeo institucional da IAmazing School sobre educação e IA",
   "scripts": {
     "start": "remotion studio src/index.ts",
     "build": "tsc --noEmit",
-    "render": "remotion render src/index.ts Video out/video-final.mp4 --props=input.json --codec=h264 --overwrite"
+    "render": "remotion render src/index.ts Video renders/final-video.mp4 --props=input.json --codec=h264 --overwrite",
+    "preview": "remotion render src/index.ts Video renders/preview.gif --props=input.json --codec=gif --frames=0-180 --overwrite",
+    "captions": "mkdir -p renders && cp assets/captions.srt renders/captions.srt",
+    "export": "npm run build && npm run render && npm run preview && npm run captions"
   },
   "dependencies": {
     "react": "^18.3.1",
