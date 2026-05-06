@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:02,400
+O mundo mudou.
+
+2
+00:00:02,400 --> 00:00:05,000
+A inteligência artificial já faz parte da educação.
+
+3
+00:00:05,000 --> 00:00:10,000
+Letramento em IA é a habilidade do século 21.
+
+4
+00:00:10,000 --> 00:00:13,200
+A IA não substitui professores.
+
+5
+00:00:13,200 --> 00:00:16,000
+Ela amplia o potencial humano.
+
+6
+00:00:16,000 --> 00:00:22,000
+As escolas que se anteciparem sairão na frente.
+
+7
+00:00:22,000 --> 00:00:25,200
+Prepare sua escola para o futuro da IA.
+
+8
+00:00:25,200 --> 00:00:28,400
+IAmazing School. Letramento em IA para professores e alunos.
+
+9
+00:00:28,400 --> 00:00:30,000
+iamazingschool.com.br
